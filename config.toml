@@ -27,4 +27,8 @@ patcher-args = "-OappIcon=revancify_red"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 version = "auto"
 
+[Spotify]
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+version = "auto"
+
 # END
