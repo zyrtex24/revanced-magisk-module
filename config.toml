@@ -16,8 +16,8 @@ cli-version = "dev"
 [YouTube-Extended]
 app-name = "YouTube"
 enabled = true
-patches-source = "inotia00/revanced-patches"
-#patches-source = "anddea/revanced-patches"
+#patches-source = "inotia00/revanced-patches"
+patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "module"
