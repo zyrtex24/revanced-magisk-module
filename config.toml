@@ -20,7 +20,7 @@ enabled = true
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-build-mode = "module"
+build-mode = "both"
 excluded-patches = "'Theme' 'Enable debug logging' 'Alternative thumbnails'"
 included-patches = "'MaterialYou' 'Return YouTube Username' 'Custom branding icon for YouTube'"
 patcher-args = "-OappIcon=revancify_red"
