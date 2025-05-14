@@ -8,6 +8,10 @@ parallel-jobs = 1
 
 # Global Settings
 
+#patches-source = "inotia00/revanced-patches"
+patches-source = "anddea/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+
 patches-version = "dev"
 cli-version = "dev"
 
@@ -16,9 +20,6 @@ cli-version = "dev"
 [YouTube-Extended]
 app-name = "YouTube"
 enabled = true
-#patches-source = "inotia00/revanced-patches"
-patches-source = "anddea/revanced-patches"
-cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 excluded-patches = "'Theme' 'Enable debug logging' 'Alternative thumbnails' 'Swipe controls'"
@@ -31,9 +32,8 @@ version = "auto"
 enabled = true
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 version = "auto"
-arch = "'arm64-v8a' 'armeabi-v7a'"
+#arch = "arm64-v8a"
+arch = "armeabi-v7a"
 excluded-patches = "'Lyrics search'"
-patches-source = "anddea/revanced-patches"
-cli-source = "inotia00/revanced-cli"
 
 # END
