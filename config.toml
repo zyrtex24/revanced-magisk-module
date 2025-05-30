@@ -23,8 +23,8 @@ enabled = true
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 excluded-patches = "'Theme' 'Enable debug logging' 'Alternative thumbnails' 'Swipe controls'"
-included-patches = "'MaterialYou' 'Return YouTube Username' 'Custom branding icon for YouTube'"
-patcher-args = "-OappIcon=revancify_red -OiconType=bold"
+included-patches = "'MaterialYou' 'Return YouTube Username'"
+patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon=revancify_red -e 'Overlay buttons' -OiconType=bold -e 'Visual preferences icons for YouTube' -OsettingsMenuIcon=revanced -OapplyToAll=true"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 version = "auto"
 
