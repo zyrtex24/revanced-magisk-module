@@ -38,6 +38,6 @@ included-patches = "'Custom branding icon for YouTube Music'"
 patcher-args = "-OappIcon=revancify_red"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 version = "auto"
-arch = "both"
+arch = "arm64-v8a"
 
 # END
