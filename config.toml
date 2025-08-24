@@ -34,7 +34,7 @@ enabled = true
 rv-brand = "ReVanced Extended"
 build-mode = "module"
 excluded-patches = "'Bitrate default value' 'Enable debug logging'"
-included-patches = "'Hide player overlay filter' 'Hide player overlay filter'"
+included-patches = "'Hide player overlay filter' 'Hide overlay filter'"
 patcher-args = "-e 'Custom branding icon for YouTube Music' -OappIcon=revancify_red -e 'Dark theme' -OmaterialYou=true"
 patches-source = "inotia00/revanced-patches"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
