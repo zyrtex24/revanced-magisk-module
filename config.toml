@@ -20,7 +20,7 @@ cli-version = "dev"
 [YouTube-Extended]
 app-name = "YouTube"
 enabled = true
-rv-brand = "ReVanced Extended"
+rv-brand = "RVX"
 build-mode = "module"
 excluded-patches = "'Theme' 'Enable debug logging' 'Swipe controls'"
 included-patches = "'MaterialYou'"
@@ -30,7 +30,7 @@ version = "20.21.37"
 
 [Music-Extended]
 app-name = "Music"
-enabled = true
+enabled = false
 rv-brand = "ReVanced Extended"
 build-mode = "module"
 excluded-patches = "'Bitrate default value' 'Enable debug logging'"
