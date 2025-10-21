@@ -21,7 +21,7 @@ cli-version = "dev"
 app-name = "YouTube"
 enabled = true
 rv-brand = "RVX"
-build-mode = "module"
+build-mode = "both"
 excluded-patches = "'Theme' 'Enable debug logging' 'Swipe controls' 'Change splash icons' 'Translations for YouTube' 'Restore old seekbar thumbnails' 'Return YouTube Username' 'Enable gradient loading screen' 'Change start page' 'Change share sheet' 'Change player flyout menu toggles' 'Alternative thumbnails' 'Bypass image region restrictions'"
 included-patches = "'MaterialYou'"
 patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon=revancify_red -e 'Overlay buttons' -OiconType=bold"
