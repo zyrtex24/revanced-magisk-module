@@ -12,8 +12,9 @@ remove-rv-integrations-checks=true
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 
-patches-version = "dev"
-cli-version = "dev"
+patches-version = "latest"
+#patches-version = "dev"
+#cli-version = "dev"
 
 # App Specific Settings
 
